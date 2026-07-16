@@ -15,7 +15,7 @@
         "minimum": "14",
         "verified": "14"
     },
-    "esmodules": ["module/kor-lang.mjs"],
+    "esmodules": ["module/kor-languages.mjs"],
     "relationships": {
         "systems": [
             {

@@ -7,9 +7,9 @@ export function add(key, data) {
         hint: `KOR-LANG.${key}.hint`,
     };
 
-    game.settings.register("kor-lang", key, Object.assign(common, data));
+    game.settings.register("kor-languages", key, Object.assign(common, data));
 }
 
 export function get(key) {
-    return game.settings.get("kor-lang", key);
+    return game.settings.get("kor-languages", key);
 }
